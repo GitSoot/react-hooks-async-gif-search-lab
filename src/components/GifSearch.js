@@ -15,7 +15,7 @@ const GifSearch = ({ submitSearch }) => {
     return (
         <div>
             <form onSubmit={handleSubmit}>
-                <label >Thinking of a GIF?</label>
+                <label >Thinking of a GIF?</label><br></br>
                 <input id="search" placeholder='Type here' type="text" value={searchItem} onChange={handleSearch}/>
                 <button type="submit">Click here!</button>
             </form>
